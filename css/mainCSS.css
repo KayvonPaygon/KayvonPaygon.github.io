@@ -1,0 +1,71 @@
+.h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 15px;
+    border-color: black;
+    padding: 10px 0px 10px;
+    margin: 0px 500px 0px;
+}
+
+/* outline colors */
+.main {
+    background-color: lightseagreen;
+}
+
+.pics {
+    background-color: crimson;
+}
+
+.rubric {
+    background-color: darkorange;
+}
+
+.quote {
+    background-color: darkgreen;
+}
+
+.code {
+    background-color: darkorchid;
+}
+
+.body {
+    background-color: lightgray;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+    margin: 50px 0px 0px;
+}
+
+.links:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+    
+.links:visited {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+    
+.links:hover {
+    color: lightseagreen;
+    background-color: transparent;
+    text-decoration: underline;
+}
+    
+.links:active {
+    color: rgb(13, 102, 98);
+    background-color: transparent;
+    text-decoration: underline;
+}
